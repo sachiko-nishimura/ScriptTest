@@ -6,9 +6,6 @@ public class Boss {
 
 	// 魔法攻撃の関数
 	public  void Magic(int magic) { 
-		
-		// 残りmpを減らす
-		this.mp -= magic;
 
 		if (mp >= magic) {
 			// mpが53以上だった場合
